@@ -1,14 +1,48 @@
-# Welcome to your CDK TypeScript project
+## Serverless REST Assignment - Distributed Systems.
 
-This is a blank project for CDK development with TypeScript.
+__Name:__ ....wentao Lin.....
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+__Demo:__ ... https://youtu.be/JkQaaZwIi-Y ......
 
-## Useful commands
+### Context.
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+
+Table item attributes:
++ ID - string  
++ name - string  
++ RoleName - string
++ Description - string
++ likeIt? - bolean
++ translations - Partial<Record<Language, string>>;
+
+### App API endpoints.
+
+
+ 
++ POST / - add a new toy.
++ GET / -get toyId
++ GET/ -get toyname
++ GET/ - get translate
++ POST/ - modify  points
++ 
++ 
+
+
+### Features.
+
+#### Translation persistence (if completed)
+
+
+
+ Id: string;
+  name: string;
+  description: string;
+  likeIt?: boolean;
+  rating?: number;
+
+
+
+
+#### API Keys. (if completed)
+
+No api keys but an api identification and an authorzation layer is available
